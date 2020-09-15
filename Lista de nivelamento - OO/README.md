@@ -83,16 +83,17 @@ Propriedade estática é quando  o método é determinado durante o tempo de com
    	    Uma variável de classe faz parte de um conjunto de dados do objeto, dessa forma ela é dependente objeto ao ser instanciada pois precisa de referencias que a conectem a ele, como o seu nome por exemplo.
 	O nome é sobrecarga (overload), ele é utilizado pelo java para distinguir os métodos de acordo com os parâmetros dos argumentos.
 	
-	```
-         public class media{
+	
+	 ```
+	 public class media{
 	    public int media( int nota_1, int nota_2){
 	        return (nota_1+nota_2)/2;
 	    }
 	    public double media( double nota_1, double nota_2){
 	        return (nota_1 + nota_2)/2;
 	    }
-        }
-    ```
+     }
+	 ```
 	
    * **k)** this referencia a própria classe.
 	    super é usado para fazer referência a atributos da super classe.
