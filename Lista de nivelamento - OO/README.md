@@ -3,38 +3,42 @@
 
 ### Aluna: Sarah Andrade Toscano de Carvalho 
 ### Matrícula: 20170022975
-### Professor: Raoni Kulesza
-### Disciplina: Métodos de Projeto de Software
+#### Professor: Raoni Kulesza
 
 Esta atividade consiste na resolução da lista dee questões disbolibilizada pelo professor Raoni Kulesza na disciplina de Métodos de Projetos de Software ministrada em 2020 na Universidade Federal da Paraíba.
 
 ## Questão
 
- 1. dasda
-    * **a)** 
+ 1. 
+    * **a)** A utilização de POO nos permite “fragmentar” o código em diversas partes isoladas através das classes, assim a manutenabilidade do código é mais prática pois para modificações mais simples apenas é necessário alterar o conteúdo da classe e não estrutura completa do código. 
+    
+    * **b)** Um objeto equivale a instância de uma classe, o mesmo também possui atributos e métodos.
+    
+    * **c)** Propriedade dinâmica é quando o método de uma classe é sobrescrito pelo método de outra classe com mesmo nome, isso acontece quando tem herança, e o seu tipo é determinado em tempo de execução.
+Propriedade estática é quando  o método é determinado durante o tempo de compilação, sem sobrescrita de método.
+```
+Class typeA{
+public static void func (){
+		print(“I’m A”)
+}
+}
 
-Para esta atividade foram definidos cinco requisitos:
+Classe typeB extends typeA{
+public static void func (){
+		  print(“I’m B”)
+}
+public static void main(){
+typeA obj = new typeB();
+obj.func();
+}
+}
 
-- [x] **Exercício 01 - Escala**  
+***Output: I’m Class type A***
 
-    Modificar a escala da matriz Model. 
+```
 
-- [x] **Exercício 02 - Translação**  
 
-    Modificar a Matriz model para transladar a Figura.
 
-- [x] **Exercício 03 - Projeção Perspectiva** 
-
-    Modificar a matriz de projeção para aplicar uma distorção perspectiva com a distância de 0.5 do centro de projeção
-    até a origem do sistema de coordenadas da câmera.
-
-- [x] **Exercício 04 - Posição de Câmera**  
-    Nesta etapa será necessário construir o espaço de coordenadas da câmera, definido o seu posicionamento, sua posição de visualação
-    e a posição do vetor up.
-  
-- [x] **Exercício 05 - Transformação Livre**  
-
-    Este exercício consiste em modificações livres nas matrizes de visão, direção e modelo.
 
 ## Exercício 01: Escala
 ### Estratégias e Resultados
