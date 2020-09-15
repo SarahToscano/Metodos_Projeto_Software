@@ -5,7 +5,7 @@
 ### Matrícula: 20170022975
 #### Professor: Raoni Kulesza
 
-Esta atividade consiste na resolução da lista dee questões disbolibilizada pelo professor Raoni Kulesza na disciplina de Métodos de Projetos de Software ministrada em 2020 na Universidade Federal da Paraíba.
+Esta atividade consiste na resolução da lista das questões dispolibilizadas pelo professor Raoni Kulesza na disciplina de Métodos de Projetos de Software ministrada na Universidade Federal da Paraíba.
 
 ## Questão 1
 
@@ -104,38 +104,10 @@ Propriedade estática é quando  o método é determinado durante o tempo de com
    
    * **m)** Erros não podem ser tratadso pela aplicação. Exceptions podem ser capturadas e tratadas via try e catch.
    
-   * **n)** Try-catch: Comando usado para tratar exceções, o try é um bloco onde existem comandos que podem vir a causar uma exceção, e o catch descreve o que ocorrerá depois disso.  
+   * **n)** Try-catch: Comando usado para tratar exceções, o try é um bloco onde existem comandos que podem vir a causar uma exceção, e o catch descreve o que ocorrerá depois disso.
 Finally: Mesmo acontecendo uma exceção, e está sendo capturada, o que estiver dentro do bloco finally irá acontecer.
 Throw/Throws: Usado quando queremos que a exceção seja tratada em um outro bloco, e não no que provocou a exceção.
 
-
-
-
-
-   
-   
-
-   
-
-
-
-## Exercício 01: Escala
-### Estratégias e Resultados
-  Para aplicar uma modificação escalar em uma Figura, deve-se adicionar um fator multiplicativo na matriz modelo. No camera_position
-  deste exercício a escala aplicada a Figura foi (x,y,z) = (0.33, 1.5, 0). Para isso, o componente x da matriz identidade (posição 0 do model_array) 
-  foi multiplicado pela sua respectiva escala (0.33) e a posição 5 do model_array, a qual representa o eixo y, foi multiplicado por 1,5. 
-  
-  A modificação do código está ilustrada na Figura abaixo:
-
-   <p align="center">
-    <img src="https://github.com/SAndradeTC/Computacao-Grafica/blob/master/Atividade_3/Imagens/escala_code.png">
-  </p>
-
-  Dessa forma o resultado obtido está ilustrado na Figura a seguir:   
-
-  <p align="center">
-    <img src="https://github.com/SAndradeTC/Computacao-Grafica/blob/master/Atividade_3/Imagens/escala.png">
-  </p>
 
 ### Referências
 
