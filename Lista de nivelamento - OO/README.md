@@ -83,15 +83,25 @@ Propriedade estática é quando  o método é determinado durante o tempo de com
    	    Uma variável de classe faz parte de um conjunto de dados do objeto, dessa forma ela é dependente objeto ao ser instanciada pois precisa de referencias que a conectem a ele, como o seu nome por exemplo.
 	O nome é sobrecarga (overload), ele é utilizado pelo java para distinguir os métodos de acordo com os parâmetros dos argumentos.
 	
-   * **k)** this é usado para referenciar a própria classe.
+	```
+         public class media{
+	    public int media( int nota_1, int nota_2){
+	        return (nota_1+nota_2)/2;
+	    }
+	    public double media( double nota_1, double nota_2){
+	        return (nota_1 + nota_2)/2;
+	    }
+        }
+    ```
+	
+   * **k)** this referencia a própria classe.
 	    super é usado para fazer referência a atributos da super classe.
-	    this() é usado para referenciar um construtor da mesma classe.
-	    super() é usado para referenciar o construtor da super classe.
-
-   
+	    this()  referencia um construtor da mesma classe.
+ 	    super() referencia o construtor da super classe.	
+      	    
    * **l)** 
    
-   * **m)** Um Error não pode ser tratado pela aplicação, enquanto os exceptions podem ser capturadas e tratadas via try e catch.
+   * **m)** Erros não podem ser tratadso pela aplicação. Exceptions podem ser capturadas e tratadas via try e catch.
    
    * **n)** Try-catch: Comando usado para tratar exceções, o try é um bloco onde existem comandos que podem vir a causar uma exceção, e o catch descreve o que ocorrerá depois disso.  
 Finally: Mesmo acontecendo uma exceção, e está sendo capturada, o que estiver dentro do bloco finally irá acontecer.
