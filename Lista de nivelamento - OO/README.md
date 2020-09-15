@@ -16,6 +16,14 @@ Esta atividade consiste na resolução da lista dee questões disbolibilizada pe
     
     * **c)** Propriedade dinâmica é quando o método de uma classe é sobrescrito pelo método de outra classe com mesmo nome, isso acontece quando tem herança, e o seu tipo é determinado em tempo de execução.
 Propriedade estática é quando  o método é determinado durante o tempo de compilação, sem sobrescrita de método.
+
+```
+sudo apt-get update
+sudo apt-get install libgl1-mesa-dev
+sudo apt-get install build-essential
+sudo apt-get install libglew1.5-dev freeglut3-dev libglm-dev
+```
+
 ```
 Class typeA{
 public static void func (){
