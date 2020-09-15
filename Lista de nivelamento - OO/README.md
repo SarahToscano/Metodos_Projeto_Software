@@ -68,8 +68,42 @@ Propriedade estática é quando  o método é determinado durante o tempo de com
    * **d)** O Encapsulamento organizar os atributos e métodos do objeto, assim ele oculta determinados atributos e métodos de uma classe das demais classes. O encapsulamento é importante para  manter a organização do código e para que o sistema esteja pronto para futuras modificações.
 
 		
-  * **e)** Os estados são os valores dos atributos do objeto e representam suas características. já o comportamento é para exercer funções (métodos) que aquele objeto possui. 
+   * **e)** Os estados são os valores dos atributos do objeto e representam suas características. já o comportamento é para exercer funções (métodos) que aquele objeto possui. 
 
+   * **f)** O código apresenta uma classe denominada Carteira de Investimento com 3 atributos (ação, valor e risco) e 4 métodos dos quais um é o construtor. A estrutura do código está [disponível aqui](https://github.com/SAndradeTC/Metodos_Projeto_Software/blob/master/Lista%20de%20nivelamento%20-%20OO/estado_comportamento.py) e o mesmo foi implementado em python.
+   
+   * **g)** A localização do objeto na memória.
+   
+   * **h)** A referência recebe a nova referência do novo objeto.
+   
+   * **i)** Classe é uma estrutura que agrupa objetos de acordo com as características, como métodos e atributos. Em uma classe são definidas o comportamento e estado dos objetos. No código implementado para a letra 'f' temos uma classe, 4 métodos e 3 atributos implementados, consulte o [código aqui](https://github.com/SAndradeTC/Metodos_Projeto_Software/blob/master/Lista%20de%20nivelamento%20-%20OO/estado_comportamento.py).
+   
+   
+   * **j)** Uma variável de instância pertence a um tipo já definido pela linguagem, e ela não faz parte de nenhum agrupamento, ela existe sozinha. Uma variável de classe faz parte de um conjunto de dados que chamamos de objeto, ela só pode ser chamada junto com o nome do seu objeto.
+	O nome disso é sobrecarga, o java consegue distinguir pelos parâmetros daquele método.
+	
+   * **k)** this é usado para referenciar a própria classe.
+	    super é usado para fazer referência a atributos da super classe.
+	    this() é usado para referenciar um construtor da mesma classe.
+	    super() é usado para referenciar o construtor da super classe.
+
+   
+   * **l)** 
+   
+   * **m)** Um Error não pode ser tratado pela aplicação, enquanto os exceptions podem ser capturadas e tratadas via try e catch.
+   
+   * **n)** Try-catch: Comando usado para tratar exceções, o try é um bloco onde existem comandos que podem vir a causar uma exceção, e o catch descreve o que ocorrerá depois disso.  
+Finally: Mesmo acontecendo uma exceção, e está sendo capturada, o que estiver dentro do bloco finally irá acontecer.
+Throw/Throws: Usado quando queremos que a exceção seja tratada em um outro bloco, e não no que provocou a exceção.
+
+
+
+
+
+   
+   
+
+   
 
 
 
@@ -91,111 +125,7 @@ Propriedade estática é quando  o método é determinado durante o tempo de com
     <img src="https://github.com/SAndradeTC/Computacao-Grafica/blob/master/Atividade_3/Imagens/escala.png">
   </p>
 
-## Exercício 02: Translação
-### Estratégias e Resultados
-  Para aplicar a translação em coordenadas homogêneas foi utilizado o seguinte princípio, a nova posição da Figura no eixo x
-  seria equivalente a posição original somada da distância equivalencia a translação no eixo. Dessa forma, como o intuito seria transladar
-  a figura com (x,y,z) = (1,0,0). 
-  
-  Assim, modficando a matriz modelo com esses valores, a sua posição 12 foi alterada com o valor da 
-  distância equivalente ao X da translação. Para as coordenadas Y e Z não foram necessárias alterações. Em relação ao exercício anterior, 
-  os fatores de escala foram restaurados para o valor unitário e apenas houve a inclusão da modificação citada anteriormente.
-  As alterações no código são ilustradas a seguir:
-
-  <p align="center">
-    <img src="https://github.com/SAndradeTC/Computacao-Grafica/blob/master/Atividade_3/Imagens/translacao_code.png">
-  </p>
-  
-  O resultado está ilustrado na Figura abaixo:
-
-  <p align="center">
-    <img src="https://github.com/SAndradeTC/Computacao-Grafica/blob/master/Atividade_3/Imagens/translacao_figura.png">
-  </p>
-
-## Exercício 03: Projeção Perspectiva
-### Estratégias e Resultados
-  Para atribuir uma projeção perspectiva da imagem é preciso modificar a matriz de projeção para adicionarmos o parâmetro 
-  'd' que equivale a distancia do centro de projeção  até a origem do sistema de coordenadas da câmera. Para este exercício
-  foi utilizado uma distância de 0.5.
-  A matriz projeção utilizada consiste na Figura abaixo, a qual considera a câmera na origem de seu sistemas de coordenadas.
-  
-  <p align="center">
-    <img src="https://github.com/SAndradeTC/Computacao-Grafica/blob/master/Atividade_3/Imagens/matriz_de_projecao.png">
-  </p>
-
-  Dessa forma, foi o d foi substituido na matriz de projeção nas posições indicadas conforme a Figura e o resultado obtido
-  com a compilação do código foi o seguinte:
-  <p align="center">
-    <img src="https://github.com/SAndradeTC/Computacao-Grafica/blob/master/Atividade_3/Imagens/proje.png">
-  </p>
-
-
-## Exercício 04: Posição da Câmera
-### Estratégias e Resultados
-
-Neste exercício, para realizar modificações no posiconamento da câmera oram realizadas algumas implementações de transformações
-e foi mantido as alterações na matriz de projeção do tópico anterior.
-
-Para construir um sistema de coordenadas básicos para a câmera é primordial definir a configuração de 3 itens.
-Na lista abaixo eles são defindos e também são apresentados os valores utilizados para esta implementação.
-- A posição da câmera (x,y,z) = (-0.1,0.1,0.25);
-- Ponto para o qual a câmera está direcionada (x,y,z) = (0,0,0);
-- O vetor UP (x,y,z) = (0,1,0).
-
-Uma vez que estes dados são definidos é preciso realizar o seguinte cálculo:
-
-<p align="center">
-    <img src="https://github.com/SAndradeTC/Computacao-Grafica/blob/master/Atividade_3/Imagens/calculo.png">
-  </p>
-
-Dessa forma teremos as coordenadas da matriz B, que serão utilizadas para calcular a matriz de visualização.
-Para a realização desse cálculo foram utizadas funções geométricas do glm como o normalize e o cross. Tal recursos
-são utilizados nas linhas 90-93 do arquivo main.cpp.
-
-Após esses cálculos temos a matriz B, no entanto ainda é necessário preencher um array com sua representação transposta e
-multiplicarmos pela matriz exemplificada na Figura abaixo:
-
-<p align="center">
-    <img src="https://github.com/SAndradeTC/Computacao-Grafica/blob/master/Atividade_3/Imagens/calculo2.png">
-  </p>
-
-Dessa forma, estabelecemos a matriz de visualização com o produto entre essas duas matrizes. Desta forma o resultado
-obtido foi o seguinte: 
-
-<p align="center">
-    <img src="https://github.com/SAndradeTC/Computacao-Grafica/blob/master/Atividade_3/Imagens/camera.png">
-  </p>
-
-## Exercício 05: Transformação Livre
-### Estratégias e Resultados
-  Para essa etapa de tranformação livre optou-se alterar os valores das matrizes de visualação, modelo e perspectiva
-  com o intuito de modificar a Figura de dois triangulos, um azul e outro vermelho.
-  A metodologia adotada foi a mesma dos exercícios 1, 2 e 3, respectivamente. 
-
-  - Inicialmente a matriz model foi alterada para que a Figura tivesse os seguintes fatores em escala
-  (x, y, z) = (0.95, 1.8, 1.8). 
-
-  - Em seguida, ainda na matriz model foi adicionado o fator translação em (x,y,z) = (0.6, -0.9, 0.6).
-
-  - A matriz de projeção perspectiva foi alterada para um d equivalente a 3.4.
-
-  - O vetor UP ficou na direção (0,1,0);
-
-  - O ponto de visão da câmera foi (0,0,0);
-
-  - O posicionamento da câmera através da matriz view para as coordenadas ficou (-1/0.8, 0.8, 1.2)
-
-Assim, o resultado final, o qual está ilustrado abaixo
-
-<p align="center">
-      <img src="https://github.com/SAndradeTC/Computacao-Grafica/blob/master/Atividade_3/Imagens/final3.png">
-  </p>
-
-  Dessa forma, essas foram as modificações livres realizadas no Figura incial da atividade.
-
-  
 ### Referências
 
-- [Definição do projeto](https://sig-arq.ufpb.br/arquivos/2020251182af5d2276812b448ad7142ee/trabalho_3.pdf)
-- [Código suporte - disponibilizado pelo professor](https://github.com/capagot/icg/tree/master/03_transformations)
-- [Funções Geométricas do GLM](https://glm.g-truc.net/0.9.4/api/a00131.html)
+- [Lista de Exercício](https://github.com/SAndradeTC/Metodos_Projeto_Software/blob/master/Lista%20de%20nivelamento%20-%20OO/Quest%C3%B5es.pdf)
+
