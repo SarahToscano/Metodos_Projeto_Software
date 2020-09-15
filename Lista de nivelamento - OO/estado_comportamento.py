@@ -26,6 +26,7 @@ def main():
 
     Carteira_Investimento.invista(acao_1, 100)
     Carteira_Investimento.invista(acao_2, 80)
+    Carteira_Investimento.retire(acao_2, 70)
 
 main()
 
