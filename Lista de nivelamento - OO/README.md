@@ -1,18 +1,17 @@
 # Métodos de Projeto de Software
-## Lista de Nivelamento sobre O.O
+## Lista de Nivelamento sobre Orientação a Objeto
 
 ### Aluna: Sarah Andrade Toscano de Carvalho 
 ### Matrícula: 20170022975
+### Professor: Raoni Kulesza
+### Disciplina: Métodos de Projeto de Software
 
-Esta atividade consiste em 5 questões, as quais buscam realizar modificações na estrutura do pipeline 
-gráfico através da implementação de transformações geométricas. 
+Esta atividade consiste na resolução da lista dee questões disbolibilizada pelo professor Raoni Kulesza na disciplina de Métodos de Projetos de Software ministrada em 2020 na Universidade Federal da Paraíba.
 
-Esta atividade consistirá em alterações
-a partir de um código em C++ disponibilizado pelo professor da disciplina de Computação Gráfica. Esta implementação
-terá o auxílio da biblioteca glm e sua execução ocorrerá nos shaders do OpenGL.
+## Questão
 
-  
-### Requisitos
+ 1. dasda
+    * **a)** 
 
 Para esta atividade foram definidos cinco requisitos:
 
