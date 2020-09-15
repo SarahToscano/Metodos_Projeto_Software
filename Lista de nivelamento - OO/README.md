@@ -10,40 +10,65 @@ Esta atividade consiste na resolução da lista dee questões disbolibilizada pe
 ## Questão
 
  1. 
-    * **a)** A utilização de POO nos permite “fragmentar” o código em diversas partes isoladas através das classes, assim a manutenabilidade do código é mais prática pois para modificações mais simples apenas é necessário alterar o conteúdo da classe e não estrutura completa do código. 
+   * **a)** A utilização de POO nos permite “fragmentar” o código em diversas partes isoladas através das classes, assim a manutenabilidade do código é mais prática pois para modificações mais simples apenas é necessário alterar o conteúdo da classe e não estrutura completa do código. 
     
-    * **b)** Um objeto equivale a instância de uma classe, o mesmo também possui atributos e métodos.
+   * **b)** Um objeto equivale a instância de uma classe, o mesmo também possui atributos e métodos.
     
-    * **c)** Propriedade dinâmica é quando o método de uma classe é sobrescrito pelo método de outra classe com mesmo nome, isso acontece quando tem herança, e o seu tipo é determinado em tempo de execução.
+   * **c)** Propriedade dinâmica é quando o método de uma classe é sobrescrito pelo método de outra classe com mesmo nome, isso acontece quando tem herança, e o seu tipo é determinado em tempo de execução.
 Propriedade estática é quando  o método é determinado durante o tempo de compilação, sem sobrescrita de método.
 
-```
-sudo apt-get update
-sudo apt-get install libgl1-mesa-dev
-sudo apt-get install build-essential
-sudo apt-get install libglew1.5-dev freeglut3-dev libglm-dev
-```
+		**Exemplo Propriedade Estática:**
 
-```
-Class typeA{
-public static void func (){
-		print(“I’m A”)
-}
-}
+		```
+		Class typeA{
+		      public static void func (){
+			print(“I’m A”)
+		      }
+		}
 
-Classe typeB extends typeA{
-public static void func (){
-		  print(“I’m B”)
-}
-public static void main(){
-typeA obj = new typeB();
-obj.func();
-}
-}
+		Classe typeB extends typeA{
+		      public static void func (){
+			 print(“I’m B”)
+		      }
+		      
+		      public static void main(){
+		         typeA obj = new typeB();
+		         obj.func();
+		      }
+		}
 
-***Output: I’m Class type A***
+		***Output: I’m A***
 
-```
+		```
+		
+		
+		**Exemplo Propriedade Dinâmica:**
+
+		```
+		Class typeA{
+		      public  void func (){
+			print(“I’m A”)
+		      }
+		}
+
+		Classe typeB extends typeA{
+		      public  void func (){
+			 print(“I’m B”)
+		      }
+		      
+		      public  void main(){
+		         typeA obj = new typeB();
+		         obj.func();
+		      }
+		}
+
+		***Output: I’m B***
+		```
+		
+   * **d)** O Encapsulamento organizar os atributos e métodos do objeto, assim ele oculta determinados atributos e métodos de uma classe das demais classes. O encapsulamento é importante para  manter a organização do código e para que o sistema esteja pronto para futuras modificações.
+
+		
+  * **e)** Os estados são os valores dos atributos do objeto e representam suas características. já o comportamento é para exercer funções (métodos) que aquele objeto possui. 
 
 
 
