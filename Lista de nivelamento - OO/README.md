@@ -79,8 +79,9 @@ Propriedade estática é quando  o método é determinado durante o tempo de com
    * **i)** Classe é uma estrutura que agrupa objetos de acordo com as características, como métodos e atributos. Em uma classe são definidas o comportamento e estado dos objetos. No código implementado para a letra 'f' temos uma classe, 4 métodos e 3 atributos implementados, consulte o [código aqui](https://github.com/SAndradeTC/Metodos_Projeto_Software/blob/master/Lista%20de%20nivelamento%20-%20OO/estado_comportamento.py).
    
    
-   * **j)** Uma variável de instância pertence a um tipo já definido pela linguagem, e ela não faz parte de nenhum agrupamento, ela existe sozinha. Uma variável de classe faz parte de um conjunto de dados que chamamos de objeto, ela só pode ser chamada junto com o nome do seu objeto.
-	O nome disso é sobrecarga, o java consegue distinguir pelos parâmetros daquele método.
+   * **j)** Uma variável de instância não faz parte de agrupamento, pois pertence a um tipo já definido pela linguagem. 
+   	    Uma variável de classe faz parte de um conjunto de dados do objeto, dessa forma ela é dependente objeto ao ser instanciada pois precisa de referencias que a conectem a ele, como o seu nome por exemplo.
+	O nome é sobrecarga (overload), ele é utilizado pelo java para distinguir os métodos de acordo com os parâmetros dos argumentos.
 	
    * **k)** this é usado para referenciar a própria classe.
 	    super é usado para fazer referência a atributos da super classe.
