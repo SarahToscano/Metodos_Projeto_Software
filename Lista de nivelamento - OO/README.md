@@ -1,41 +1,77 @@
 # Métodos de Projeto de Software
-## Lista de Nivelamento sobre O.O
+## Lista de Nivelamento sobre Orientação a Objeto
 
 ### Aluna: Sarah Andrade Toscano de Carvalho 
 ### Matrícula: 20170022975
+#### Professor: Raoni Kulesza
 
-Esta atividade consiste em 5 questões, as quais buscam realizar modificações na estrutura do pipeline 
-gráfico através da implementação de transformações geométricas. 
+Esta atividade consiste na resolução da lista dee questões disbolibilizada pelo professor Raoni Kulesza na disciplina de Métodos de Projetos de Software ministrada em 2020 na Universidade Federal da Paraíba.
 
-Esta atividade consistirá em alterações
-a partir de um código em C++ disponibilizado pelo professor da disciplina de Computação Gráfica. Esta implementação
-terá o auxílio da biblioteca glm e sua execução ocorrerá nos shaders do OpenGL.
+## Questão 1
 
-  
-### Requisitos
+1. 
+   * **a)** A utilização de POO nos permite “fragmentar” o código em diversas partes isoladas através das classes, assim a manutenabilidade do código é mais prática pois para modificações mais simples apenas é necessário alterar o conteúdo da classe e não estrutura completa do código. 
+    
+   * **b)** Um objeto equivale a instância de uma classe, o mesmo também possui atributos e métodos.
+    
+   * **c)** Propriedade dinâmica é quando o método de uma classe é sobrescrito pelo método de outra classe com mesmo nome, isso acontece quando tem herança, e o seu tipo é determinado em tempo de execução.
+Propriedade estática é quando  o método é determinado durante o tempo de compilação, sem sobrescrita de método.
 
-Para esta atividade foram definidos cinco requisitos:
+		**Exemplo Propriedade Estática:**
 
-- [x] **Exercício 01 - Escala**  
+		```
+		Class typeA{
+		      public static void func (){
+			print(“I’m A”)
+		      }
+		}
 
-    Modificar a escala da matriz Model. 
+		Classe typeB extends typeA{
+		      public static void func (){
+			 print(“I’m B”)
+		      }
+		      
+		      public static void main(){
+		         typeA obj = new typeB();
+		         obj.func();
+		      }
+		}
 
-- [x] **Exercício 02 - Translação**  
+		***Output: I’m A***
 
-    Modificar a Matriz model para transladar a Figura.
+		```
+		
+		
+		**Exemplo Propriedade Dinâmica:**
 
-- [x] **Exercício 03 - Projeção Perspectiva** 
+		```
+		Class typeA{
+		      public  void func (){
+			print(“I’m A”)
+		      }
+		}
 
-    Modificar a matriz de projeção para aplicar uma distorção perspectiva com a distância de 0.5 do centro de projeção
-    até a origem do sistema de coordenadas da câmera.
+		Classe typeB extends typeA{
+		      public  void func (){
+			 print(“I’m B”)
+		      }
+		      
+		      public  void main(){
+		         typeA obj = new typeB();
+		         obj.func();
+		      }
+		}
 
-- [x] **Exercício 04 - Posição de Câmera**  
-    Nesta etapa será necessário construir o espaço de coordenadas da câmera, definido o seu posicionamento, sua posição de visualação
-    e a posição do vetor up.
-  
-- [x] **Exercício 05 - Transformação Livre**  
+		***Output: I’m B***
+		```
+		
+   * **d)** O Encapsulamento organizar os atributos e métodos do objeto, assim ele oculta determinados atributos e métodos de uma classe das demais classes. O encapsulamento é importante para  manter a organização do código e para que o sistema esteja pronto para futuras modificações.
 
-    Este exercício consiste em modificações livres nas matrizes de visão, direção e modelo.
+		
+  * **e)** Os estados são os valores dos atributos do objeto e representam suas características. já o comportamento é para exercer funções (métodos) que aquele objeto possui. 
+
+
+
 
 ## Exercício 01: Escala
 ### Estratégias e Resultados
