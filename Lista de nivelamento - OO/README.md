@@ -1,5 +1,8 @@
 # Métodos de Projeto de Software
-## Lista de Nivelamento sobre Orientação a Objeto
+## 📌 Lista de Nivelamento sobre Orientação a Objeto
+
+---
+
 
 ### Aluna: Sarah Andrade Toscano de Carvalho 
 ### Matrícula: 20170022975
@@ -7,7 +10,9 @@
 
 Esta atividade consiste na resolução da lista das questões dispolibilizadas pelo professor Raoni Kulesza na disciplina de Métodos de Projetos de Software ministrada na Universidade Federal da Paraíba.
 
-## Questão 1
+## 📝 Questão 1
+
+---
 
 1. 
    * **a)** A utilização de POO nos permite “fragmentar” o código em diversas partes isoladas através das classes, assim a manutenabilidade do código é mais prática pois para modificações mais simples apenas é necessário alterar o conteúdo da classe e não estrutura completa do código. 
@@ -107,6 +112,23 @@ Propriedade estática é quando  o método é determinado durante o tempo de com
    * **n)** Try-catch: Comando usado para tratar exceções, o try é um bloco onde existem comandos que podem vir a causar uma exceção, e o catch descreve o que ocorrerá depois disso.
 Finally: Mesmo acontecendo uma exceção, e está sendo capturada, o que estiver dentro do bloco finally irá acontecer.
 Throw/Throws: Usado quando queremos que a exceção seja tratada em um outro bloco, e não no que provocou a exceção.
+
+
+
+## 📝 Questão 2
+
+  * O trecho de código do arquivo Pedido.h pertence a um projeto implementado durante a disciplina de Linguagem de Programação I e consiste em um arquivo .h para pedidos de clientes em restaurantes. Tal código foi implementado em C++.
+  
+     * Na classe **Pedido** temos três **atributos** privados: ID do item, a sua descrição, quantidade de item comprados e o seu preço
+     * Na seção pública do código é possível visualizar um **construtor** que inicializa o objeto com 0s para seus atributos inteiros e a string de descrição vazia.
+     * Existem 4 **métodos** de 'set' para definir os valores de seus atributos.
+     * Por fim, também é definido seu **destrutor** para ao final da execução do programa liberar a memória alocada para o recurso.
+  
+
+  
+---
+
+
 
 
 ### Referências
