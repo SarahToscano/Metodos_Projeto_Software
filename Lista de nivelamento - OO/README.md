@@ -75,13 +75,13 @@ Propriedade estática é quando  o método é determinado durante o tempo de com
 		
    * **e)** Os estados são os valores dos atributos do objeto e representam suas características. já o comportamento é para exercer funções (métodos) que aquele objeto possui. 
 
-   * **f)** O código apresenta uma classe denominada Carteira de Investimento com 3 atributos (ação, valor e risco) e 4 métodos dos quais um é o construtor. A estrutura do código está [disponível aqui](https://github.com/SAndradeTC/Metodos_Projeto_Software/blob/master/Lista%20de%20nivelamento%20-%20OO/estado_comportamento.py) e o mesmo foi implementado em python.
+   * **f)** O código apresenta uma classe denominada Carteira de Investimento com 3 atributos (ação, valor e risco) e 4 métodos dos quais um é o construtor. A estrutura do código está [disponível aqui](https://github.com/SarahToscano/Metodos_Projeto_Software/blob/master/Lista%20de%20nivelamento%20-%20OO/Quest%C3%A3o%201%20-%20codigos/estado_comportamento.py) e o mesmo foi implementado em python.
    
    * **g)** A localização do objeto na memória.
    
    * **h)** A referência recebe a nova referência do novo objeto.
    
-   * **i)** Classe é uma estrutura que agrupa objetos de acordo com as características, como métodos e atributos. Em uma classe são definidas o comportamento e estado dos objetos. No código implementado para a letra 'f' temos uma classe, 4 métodos e 3 atributos implementados, consulte o [código aqui](https://github.com/SAndradeTC/Metodos_Projeto_Software/blob/master/Lista%20de%20nivelamento%20-%20OO/estado_comportamento.py).
+   * **i)** Classe é uma estrutura que agrupa objetos de acordo com as características, como métodos e atributos. Em uma classe são definidas o comportamento e estado dos objetos. No código implementado para a letra 'f' temos uma classe, 4 métodos e 3 atributos implementados, consulte o [código aqui](https://github.com/SarahToscano/Metodos_Projeto_Software/blob/master/Lista%20de%20nivelamento%20-%20OO/Quest%C3%A3o%201%20-%20codigos/estado_comportamento.py).
    
    
    * **j)** Uma variável de instância não faz parte de agrupamento, pois pertence a um tipo já definido pela linguagem. 
@@ -120,21 +120,21 @@ Throw/Throws: Usado quando queremos que a exceção seja tratada em um outro blo
 ---
 
 
-  * O código do arquivo [Pedido](https://github.com/SarahToscano/Metodos_Projeto_Software/blob/master/Lista%20de%20nivelamento%20-%20OO/Pedido.h) pertence a um projeto implementado durante a disciplina de Linguagem de Programação I e consiste em um arquivo .h para pedidos de clientes em restaurantes. Tal código foi implementado em C++.
+  * O código do arquivo [Pedido](https://github.com/SarahToscano/Metodos_Projeto_Software/blob/master/Lista%20de%20nivelamento%20-%20OO/Quest%C3%A3o%202%20-%20codigos/Pedido.h) pertence a um projeto implementado durante a disciplina de Linguagem de Programação I e consiste em um arquivo .h para pedidos de clientes em restaurantes. Tal código foi implementado em C++.
   
      * Na classe **Pedido** temos três **atributos** privados: ID do item, a sua descrição, quantidade de item comprados e o seu preço
      * Na seção pública do código é possível visualizar um **construtor** que inicializa o objeto com 0s para seus atributos inteiros e a string de descrição vazia.
      * Existem 4 **métodos** de 'set' para definir os valores de seus atributos.
      * Por fim, também é definido seu **destrutor** para ao final da execução do programa liberar a memória alocada para o recurso.
      
- * O segundo exemplo de classe está presente no código [Mesa de Restaurante](https://github.com/SarahToscano/Metodos_Projeto_Software/blob/master/Lista%20de%20nivelamento%20-%20OO/MesaDeRestaurante.h). 
+ * O segundo exemplo de classe está presente no código [Mesa de Restaurante](https://github.com/SarahToscano/Metodos_Projeto_Software/blob/master/Lista%20de%20nivelamento%20-%20OO/Quest%C3%A3o%202%20-%20codigos/MesaDeRestaurante.h). 
  
      * A classe **MesaDeRestaurante** possui um **atributo** que representa o ID da mesa e um relacionamento ao pedido.
      * Tem **construtor** para inicilaizar a classe.
      * E possui 3 **métodos** sendo eles para adicionar mais um pedido a mesa atendida, calcular o custo do consumo total e zerar os pedidos da mesa.
      
      
- * O último exemplo de classe é o código [Restaurante Caseiro](https://github.com/SarahToscano/Metodos_Projeto_Software/blob/master/Lista%20de%20nivelamento%20-%20OO/RestauranteCaseiro.h). 
+ * O último exemplo de classe é o código [Restaurante Caseiro](https://github.com/SarahToscano/Metodos_Projeto_Software/blob/master/Lista%20de%20nivelamento%20-%20OO/Quest%C3%A3o%202%20-%20codigos/RestauranteCaseiro.h). 
  
      * A classe **RestauranteCaseiro** possui um **atributo** que representa o total de pedidos realizados em um dia e possui um relacionamento com a classe Mesa de Restaurante.
      * Tem **construtor** para calcular o valor total diário obtido com o pagamento dos clientes.
