@@ -117,6 +117,9 @@ Throw/Throws: Usado quando queremos que a exceção seja tratada em um outro blo
 
 ## 📝 Questão 2
 
+---
+
+
   * O código do arquivo [Pedido](https://github.com/SarahToscano/Metodos_Projeto_Software/blob/master/Lista%20de%20nivelamento%20-%20OO/Pedido.h) pertence a um projeto implementado durante a disciplina de Linguagem de Programação I e consiste em um arquivo .h para pedidos de clientes em restaurantes. Tal código foi implementado em C++.
   
      * Na classe **Pedido** temos três **atributos** privados: ID do item, a sua descrição, quantidade de item comprados e o seu preço
