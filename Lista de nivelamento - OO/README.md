@@ -105,7 +105,7 @@ Propriedade estática é quando  o método é determinado durante o tempo de com
 	    this()  referencia um construtor da mesma classe.
  	    super() referencia o construtor da super classe.	
       	    
-   * **l)** 
+   * **l)** Alguns erros de compilação do C são: segmentation fault, stack overflow, runtime error. Destes, é possível tratar com exceções o runtime error.
    
    * **m)** Erros não podem ser tratadso pela aplicação. Exceptions podem ser capturadas e tratadas via try e catch.
    
